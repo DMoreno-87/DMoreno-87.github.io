@@ -37,10 +37,26 @@ h4 {
 }
 
 img {
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
 }
 
-.TablePictureTogether{
+.TablePictureTogether {
     display: flex;
 }
+
+ul {
+    font-size: 16px;
+}
+
+#SkillsSize {
+    font-size: 18px;
+    font-style: italic;
+} 
+
+/*changed the skills list text arbitrarily to show specificity challenge.
+All ul types have a font size of 16px and a standard text style. This is 1 point.
+By giving my skills list a unique id and changing it here, these modifiers are 100 points.
+Since those are higher, they take precedence and therefore are applied over the ul modifiers
+the rest of the ul lists have. This is seen in the website where only the Skills list has 18px
+font size instead of 16px amd are italicized. */
