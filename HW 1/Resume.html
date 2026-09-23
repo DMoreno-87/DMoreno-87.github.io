@@ -9,7 +9,13 @@
             padding: 8px;
         }
 
-        .right-align{text-align: right;}
+        .right-align{
+            float: right;
+        }
+
+        .listheaders{
+            font-size: 20px;
+        }
     </style>
     <link rel="stylesheet" href="styleresume.css">
 </head>
@@ -23,12 +29,57 @@
     </h4>
 
     <ul class="categories">
-        <li><u>EDUCATION</u> <br> 
-            &emsp; CUNY Borough of Manhattan Community College
-            <p class="right-align"></p></li>
-        <li><u>EXPERIENCE</u></li>
-        <li><u>EXTRACURRICULAR ACTIVITIES</u></li>
-        <li><u>TECHNICAL PROJECTS</u></li>
-        <li><u>SKILLS</u></li>
+        <li>
+            <span class="listheaders"><u><b>EDUCATION</b></u><br></span>
+                <ul class="categories">
+                    <li>
+                        &emsp; <b>CUNY Borough of Manhattan Community College</b>
+                        <span class="right-align">New York, NY</span> <br>
+                        &emsp; <i>Associate of Science in Computer Science
+                        <span class="right-align">Jan 2023 - Dec 2025</span></i>                        
+                    </li> 
+                    <li>
+                        &emsp; <b>CUNY Hunter College</b>
+                        <span class="right-align">New York, NY</span> <br>
+                        &emsp; <i>Bachelor of Arts in Computer Science
+                        <span class="right-align">Dec 2025 - Dec 2027 Expected</span></i>
+                    </li>
+                </ul>
+        </li><br>
+
+        <li>
+            <span class="listheaders"><u><b>EXPERIENCE</b></u><br></span>
+                <ul class="categories">
+                    <li>
+                        &emsp; <b>Data Analytics Intern</b>
+                        <span class="right-align">New York, NY</span> <br>
+                        &emsp; <i>Port Authority of New York & New Jersey
+                        <span class="right-align">March 2026 - May 2026</span></i>
+                        <ul>
+                            <li>
+                                task 1
+                            </li>
+                            <li>
+                                task 1
+                            </li>
+                        </ul>                    
+                    </li> 
+                    <li>
+                        &emsp; <b>Software Engineering Fellowship</b>
+                        <span class="right-align">New York, NY</span> <br>
+                        &emsp; <i>Tech Talent Pipeline - Residency
+                        <span class="right-align">June 2025 - Present</span></i>
+                    </li>
+                    <li>
+                        &emsp; <b>Eileen Fisher</b>
+                        <span class="right-align">New York, NY</span> <br>
+                        &emsp; <i>Store/Visual Associate
+                        <span class="right-align">May 2023 - Present</span></i>
+                    </li>
+                </ul>
+        </li>
+        <li><span class="listheaders"><u><b>EXTRACURRICULAR ACTIVITIES</b></u></span></li>
+        <li><span class="listheaders"><u><b>TECHNICAL PROJECTS</b></u></span></li>
+        <li><span class="listheaders"><u><b>SKILLS</b></u></span></li>
     </ul>
 </body>
